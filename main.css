@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+    color: white;
+}
+#container{
+    display: grid;
+    width: 80vh;
+    height: 80vh;
+    background-color: gray;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 1px 1px;
+}
+.cell{
+    background-color: palevioletred;
+    width: 100%;
+    height: auto;
+}
