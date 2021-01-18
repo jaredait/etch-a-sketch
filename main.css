@@ -2,15 +2,60 @@ body{
     background-color: black;
     color: white;
 }
+.skin{
+    background-color: rgba(255, 0, 0, 0.825);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5vh 0 2vh 0;
+    border-radius: 25px;
+    max-width: 100vh;
+    max-height: 90vh;
+    margin: auto;
+}
 #container{
     display: grid;
-    width: 80vh;
-    height: 80vh;
+    width: 70vh;
+    height: 70vh;
     background-color: black;
     margin: auto;
     gap: 2px 2px;
+    border: 2px solid black;
 }
 .cell{
     width: 100%;
     height: auto;
+}
+.controls{
+    display: flex;
+    flex-direction: row;
+    width: 80vh;
+    height: auto;
+    justify-content: space-between;
+}
+.control{
+    width: 15vh;
+    height: 15vh;
+    background-color: beige;
+    border-radius: 50%;
+    padding: 0;
+    margin: 0;
+    border: 2px solid rgb(58, 58, 52);
+    box-shadow: 0 0 10px rgb(94, 94, 84);
+}
+.button{
+    width: auto;
+    height: auto;
+    font-size: 1.2rem;
+    text-align: center;
+    border-radius: 10px;
+    margin: 0.5rem 0.5rem 0  0.5rem;
+    padding: 0.3rem;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: beige;
+}
+.button:hover{
+    background-color: rgb(255, 255, 214);
+    box-shadow: 0 0 5px rgb(0, 0, 0);
 }
